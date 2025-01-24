@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fetch APIでCRUD</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/fetch_crud.css" />
+  </head>
+  <body>
+    <main class="main">
+      <h1 class="main-title">TodoList</h1>
+      <div class="main-block">
+        <section class="post-area">
+          <h2 class="post-title">やることを追加する</h2>
+          <div class="post-form">
+            <input
+              class="post-text postTodo"
+              type="text"
+              name="todo"
+              size="30"
+              maxlength="30"
+            />
+            <button type="button" class="post-btn postBtn">追加</button>
+          </div>
+        </section>
+        <!-- .post-area -->
+
+        <section class="todo-area">
+          <h2 class="todo-title">やること一覧</h2>
+          <ul class="todo-list todoList"></ul>
+        </section>
+        <!-- .todo-area -->
+      </div>
+
+      <section class="complete-area">
+        <h2 class="complete-title">やったこと一覧</h2>
+        <ul class="complete-list completeList"></ul>
+      </section>
+    </main>
+    <script src="js/fetch_crud.js"></script>
+  </body>
+</html>

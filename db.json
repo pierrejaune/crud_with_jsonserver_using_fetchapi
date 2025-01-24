@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "todo": "お風呂",
+      "status": "return",
+      "id": "7e93"
+    },
+    {
+      "todo": "読書",
+      "status": "complete",
+      "id": "2dec"
+    },
+    {
+      "todo": "お風呂に入る",
+      "status": "incomplete",
+      "id": "d846"
+    }
+  ]
+}
