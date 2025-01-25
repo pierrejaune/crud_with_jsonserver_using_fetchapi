@@ -1,29 +1,14 @@
 {
   "todos": [
     {
-      "todo": "読書",
-      "status": "complete",
-      "id": "2dec"
-    },
-    {
-      "todo": "Typescript",
-      "status": "incomplete",
-      "id": "22a7"
-    },
-    {
-      "id": "775d",
-      "todo": "いちごを食べる",
-      "status": "incomplete"
-    },
-    {
-      "id": "8492",
+      "id": "c444",
       "todo": "JavaScript学習",
       "status": "incomplete"
     },
     {
-      "id": "e549",
-      "todo": "TodoList作成",
-      "status": "incomplete"
+      "todo": "TodoList",
+      "status": "complete",
+      "id": "127e"
     }
   ]
 }
