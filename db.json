@@ -1,19 +1,29 @@
 {
   "todos": [
     {
-      "todo": "お風呂",
-      "status": "return",
-      "id": "7e93"
-    },
-    {
       "todo": "読書",
       "status": "complete",
       "id": "2dec"
     },
     {
-      "todo": "お風呂に入る",
+      "todo": "Typescript",
       "status": "incomplete",
-      "id": "d846"
+      "id": "22a7"
+    },
+    {
+      "id": "775d",
+      "todo": "いちごを食べる",
+      "status": "incomplete"
+    },
+    {
+      "id": "8492",
+      "todo": "JavaScript学習",
+      "status": "incomplete"
+    },
+    {
+      "id": "e549",
+      "todo": "TodoList作成",
+      "status": "incomplete"
     }
   ]
 }
