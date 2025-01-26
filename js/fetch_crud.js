@@ -99,19 +99,6 @@ document.addEventListener(
   false
 );
 
-// 戻すボタン
-document.addEventListener(
-  'click',
-  (e) => {
-    if (!e.target.classList.contains('todo-return')) {
-      return;
-    }
-    const thisLi = e.target.closest('li');
-    updateFetch(thisLi, statusList[1]);
-  },
-  false
-);
-
 // 完了ボタン
 document.addEventListener(
   'click',
@@ -127,6 +114,7 @@ document.addEventListener(
   false
 );
 
+// 戻すボタン
 document.addEventListener(
   'click',
   (e) => {
